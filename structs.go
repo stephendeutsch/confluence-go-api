@@ -130,6 +130,7 @@ type SearchQuery struct {
 	IncludeArchivedSpaces bool
 	Limit                 int
 	Start                 int
+	Expand                []string
 }
 
 // History contains object history information
